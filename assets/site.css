@@ -38,3 +38,11 @@ p{overflow-wrap:break-word}
 @media(max-width:1100px){.headin{min-height:76px}.nav{gap:14px}}
 @media(max-width:800px){.headin{min-height:68px}.mark{width:36px;height:36px;font-size:25px}.nav{top:68px}.glass.one{animation:none}.glass.two{animation:none}.orbit{display:none}}
 @media(max-width:560px){h1,h2,h3{text-wrap:wrap}.section{padding-block:58px}.card-photo{height:196px}.feature{padding:22px}.visual{height:275px}.imagehero{inset:5px 0 28px}.glass.one{width:min(65%,245px)}.glass.two{max-width:58%}}
+
+/* Genuine STF Dinamik logo placement */
+.brand{display:inline-flex;align-items:center;flex:none;gap:0;min-width:0}
+.brand-logo{display:block;width:180px;height:auto;max-height:75px;object-fit:contain;object-position:left center}
+.headin{min-height:78px}
+.foot .brand-logo{width:200px;max-height:none}
+@media(max-width:800px){.brand-logo{width:148px;max-height:61px}.headin{min-height:68px}.foot .brand-logo{width:180px}}
+@media(max-width:430px){.brand-logo{width:137px;max-height:57px}}
