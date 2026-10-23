@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://williamckw.github.io/stf-dinamik-website/sitemap.xml
